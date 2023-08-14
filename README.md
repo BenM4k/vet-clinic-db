@@ -157,11 +157,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **update tables**
+- [ ] **query multiple tables**
+- [ ] **join table**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,8 +192,6 @@ To all the individuals whose creativity and dedication inspired the codebase, I 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **Can I fork and reuse this repository?**
 
