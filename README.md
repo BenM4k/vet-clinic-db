@@ -1,42 +1,3 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -45,7 +6,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -63,17 +24,14 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Vet Clinic <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**Vet Clinic** is a program that allows user to get familiar with database (Postgresql) usage. It contains basic query syntaxes that will get you catch database usage.
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -100,15 +58,13 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Database creation**
+- **Data insertion**
+- **Data query**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -116,44 +72,33 @@ After you're finished please remove all the comments and instructions!
 
 - [Live Demo Link](<replace-with-your-deployment-URL>)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project you need: 
+- GitHub;
+- Code Editor or Command line;
+- Postgresql installed in your computer;
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/BenM4k/vet-clinic-db.git
 ```
---->
 
-### Install
+<!-- ### Install
 
-Install this project with:
+Install this project with: -->
 
 <!--
 Example command:
@@ -168,17 +113,11 @@ Example command:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+- psql -U postgres -h localhost
 
-```sh
-  rails server
-```
---->
+<!-- ### Run tests
 
-### Run tests
-
-To run tests, run the following command:
+To run tests, run the following command: -->
 
 <!--
 Example command:
@@ -188,9 +127,9 @@ Example command:
 ```
 --->
 
-### Deployment
+<!-- ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: -->
 
 <!--
 Example:
@@ -206,19 +145,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Benedict Makomo**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Github](https://github.com/BenM4k)
+- Twitter: [Twitter](https://twitter.com/______ANOMALY)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/benedict-makomo/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,11 +157,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **update tables**
+- [ ] **query multiple tables**
+- [ ] **join table**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +177,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please support this project and be a part of something meaningful and impactful. Your contribution can make a significant difference and help me achieve my goals faster.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,9 +185,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+To all the individuals whose creativity and dedication inspired the codebase, I want to express my heartfelt gratitude. Your tireless efforts have left an indelible mark on this project and your contributions will be remembered for years to come. Thank you for being an integral part of our success.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,15 +193,13 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Can I fork and reuse this repository?**
 
-- **[Question_1]**
+  - Absolutely! Please feel free to fork and reuse this repository for your own projects.
 
-  - [Answer_1]
+- **Is it okay to improve this repository? Will my changes be accepted?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - Definitely! We welcome any improvements or new ideas you may have. If your changes are good and align with the project's goals, we would be happy to accept them.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -285,7 +208,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
