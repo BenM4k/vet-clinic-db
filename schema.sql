@@ -31,3 +31,9 @@ CREATE TABLE visits( vet_id INT NOT NULL, animal_id INT NOT NULL, date DATE);
 ALTER TABLE visits ADD CONSTRAINT fk_vet FOREIGN KEY (vet_id) REFERENCES vets(id);
 
 ALTER TABLE visits ADD CONSTRAINT fk_animal FOREIGN KEY (animal_id) REFERENCES animals(id);
+
+CREATE INDEX animal_id_idx ON visits(animal_id);
+
+CREATE INDEX vet_id_idx ON visits(vet_id);
+
+CREATE INDEX email_idx ON owners (email);
