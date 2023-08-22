@@ -49,3 +49,7 @@ INSERT INTO vets (name, age, date_of_graduation) VALUES ('William Tatcher', 45, 
 INSERT INTO specializations (species_id, vet_id) VALUES (1, 1), (1, 3), (2, 3), (2, 4);
 
 INSERT INTO visits (vet_id, animal_id, date) VALUES (1, 1, '2020-07-22'), (3, 1, '2020-07-22'), (4, 2, '2021-02-02'), (2, 3, '2020-01-05'), (2, 3, '2020-03-08'), (2, 3, '2020-05-14'), (3, 4, '2021-05-04'), (4, 5, '2021-02-24'), (2, 6, '2019-12-21'), (1, 6, '2020-08-10'), (2, 6, '2021-04-07'), (3, 7, '2019-09-29'), (4, 8, '2020-10-03'), (4, 8, '2020-11-04'), (2, 9, '2019-01-24'), (2, 9, '2019-05-15'), (2, 9, '2020-02-27'), (2, 9, '2020-08-03'), (3, 10, '2020-05-24'), (1, 10, '2021-01-11');
+
+INSERT INTO visits (animal_id, vet_id, date_of_visit) SELECT * FROM (SELECT id FROM animals) animal_ids, (SELECT id FROM vets) vets_ids, generate_series('1980-01-01'::timestamp, '2021-01-01', '4 hours') visit_timestamp;
+
+insert into owners (full_name, email) select 'Owner ' || generate_series(1,2500000), 'owner_' || generate_series(1,2500000) || '@mail.com';
