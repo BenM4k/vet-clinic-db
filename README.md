@@ -151,6 +151,13 @@ Example:
 - Twitter: [Twitter](https://twitter.com/______ANOMALY)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/benedict-makomo/)
 
+👤 **Innocent Ndahimana**
+
+- GitHub: [@innocent259](https://github.com/Innocent259)
+- Twitter: [@innocentndahimana](https://www.linkedin.com/in/innocent259/)
+- LinkedIn: [@innocentndahimana](https://twitter.com/ndahimana259)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
